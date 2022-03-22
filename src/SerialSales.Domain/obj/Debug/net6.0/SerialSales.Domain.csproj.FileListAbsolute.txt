@@ -10,3 +10,15 @@ C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSales.Domain\obj\
 C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSales.Domain\obj\Debug\net6.0\refint\SerialSales.Domain.dll
 C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSales.Domain\obj\Debug\net6.0\SerialSales.Domain.pdb
 C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSales.Domain\obj\Debug\net6.0\ref\SerialSales.Domain.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.Domain\bin\Debug\net6.0\SerialSales.Domain.deps.json
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.Domain\bin\Debug\net6.0\SerialSales.Domain.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.Domain\bin\Debug\net6.0\SerialSales.Domain.pdb
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.Domain\obj\Debug\net6.0\SerialSales.Domain.csproj.AssemblyReference.cache
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.Domain\obj\Debug\net6.0\SerialSales.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.Domain\obj\Debug\net6.0\SerialSales.Domain.AssemblyInfoInputs.cache
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.Domain\obj\Debug\net6.0\SerialSales.Domain.AssemblyInfo.cs
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.Domain\obj\Debug\net6.0\SerialSales.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.Domain\obj\Debug\net6.0\SerialSales.Domain.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.Domain\obj\Debug\net6.0\refint\SerialSales.Domain.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.Domain\obj\Debug\net6.0\SerialSales.Domain.pdb
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.Domain\obj\Debug\net6.0\ref\SerialSales.Domain.dll

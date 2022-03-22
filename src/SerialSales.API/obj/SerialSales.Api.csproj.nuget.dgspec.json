@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\SerialSales.Infrastructure\\SerialSales.Infrastructure.csproj": {}
+    "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\SerialSales.API\\SerialSales.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\SerialSales.Infrastructure\\SerialSales.Infrastructure.csproj": {
+    "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\SerialSales.API\\SerialSales.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\SerialSales.Infrastructure\\SerialSales.Infrastructure.csproj",
-        "projectName": "SerialSales.Infrastructure",
-        "projectPath": "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\SerialSales.Infrastructure\\SerialSales.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\SerialSales.API\\SerialSales.Api.csproj",
+        "projectName": "SerialSales.Api",
+        "projectPath": "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\SerialSales.API\\SerialSales.Api.csproj",
         "packagesPath": "C:\\Users\\Mustafa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\SerialSales.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\SerialSales.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,6 +60,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
