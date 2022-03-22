@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "6W55ygt+pgPi4eZsDvqAjCSICAo2mw/DCeWmXhB+b7k=",
+  "Source": "SerialSales.Api",
+  "BasePath": "_content/SerialSales.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

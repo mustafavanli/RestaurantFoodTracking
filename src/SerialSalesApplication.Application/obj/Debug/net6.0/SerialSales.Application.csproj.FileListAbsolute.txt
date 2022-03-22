@@ -1,0 +1,15 @@
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\bin\Debug\net6.0\SerialSales.Application.deps.json
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\bin\Debug\net6.0\SerialSales.Application.dll
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\bin\Debug\net6.0\SerialSales.Application.pdb
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\obj\Debug\net6.0\SerialSales.Application.csproj.AssemblyReference.cache
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\obj\Debug\net6.0\SerialSales.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\obj\Debug\net6.0\SerialSales.Application.AssemblyInfoInputs.cache
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\obj\Debug\net6.0\SerialSales.Application.AssemblyInfo.cs
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\obj\Debug\net6.0\SerialSales.Application.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\obj\Debug\net6.0\SerialSales.Application.dll
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\obj\Debug\net6.0\refint\SerialSales.Application.dll
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\obj\Debug\net6.0\SerialSales.Application.pdb
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\obj\Debug\net6.0\ref\SerialSales.Application.dll
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\bin\Debug\net6.0\SerialSales.Domain.dll
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\bin\Debug\net6.0\SerialSales.Domain.pdb
+C:\Users\Mustafa\source\repos\SerialSalesApplication\src\SerialSalesApplication.Application\obj\Debug\net6.0\SerialSales.Application.csproj.CopyComplete
