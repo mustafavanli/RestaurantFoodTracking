@@ -12,6 +12,6 @@ namespace SerialSales.Application.Dtos
     }
     public abstract class UpdateDto
     {
-
+        public Guid Id { get; set; }
     }
 }

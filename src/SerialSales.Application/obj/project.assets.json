@@ -14,6 +14,19 @@
           "lib/netstandard2.1/AutoMapper.dll": {}
         }
       },
+      "AutoMapper.Extensions.Microsoft.DependencyInjection/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "11.0.0",
+          "Microsoft.Extensions.Options": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Elasticsearch.Net/7.17.0": {
         "type": "package",
         "dependencies": {
@@ -49,6 +62,18 @@
           "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {}
         }
       },
+      "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll": {}
+        }
+      },
       "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
         "type": "package",
         "compile": {
@@ -59,6 +84,19 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Options/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "Microsoft.Extensions.Primitives": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.Options.dll": {}
         }
       },
       "Microsoft.Extensions.Primitives/6.0.0": {
@@ -76,6 +114,18 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "MongoDB.Bson/2.15.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "5.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MongoDB.Bson.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MongoDB.Bson.dll": {}
+        }
+      },
       "NEST/7.17.0": {
         "type": "package",
         "dependencies": {
@@ -86,6 +136,28 @@
         },
         "runtime": {
           "lib/netstandard2.0/Nest.dll": {}
+        }
+      },
+      "NEST.JsonNetSerializer/7.17.0": {
+        "type": "package",
+        "dependencies": {
+          "NEST": "7.17.0",
+          "Newtonsoft.Json": "12.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.0/Nest.JsonNetSerializer.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.JsonNetSerializer.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
       "System.Buffers/4.5.1": {
@@ -121,6 +193,9 @@
       "SerialSales.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "MongoDB.Bson": "2.15.0"
+        },
         "compile": {
           "bin/placeholder/SerialSales.Domain.dll": {}
         },
@@ -144,6 +219,20 @@
         "icon.png",
         "lib/netstandard2.1/AutoMapper.dll",
         "lib/netstandard2.1/AutoMapper.xml"
+      ]
+    },
+    "AutoMapper.Extensions.Microsoft.DependencyInjection/11.0.0": {
+      "sha512": "0asw5WxdCFh2OTi9Gv+oKyH9SzxwYQSnO8TV5Dd0GggovILzJW4UimP26JAcxc3yB5NnC5urooZ1BBs8ElpiBw==",
+      "type": "package",
+      "path": "automapper.extensions.microsoft.dependencyinjection/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+        "automapper.extensions.microsoft.dependencyinjection.nuspec",
+        "icon.png",
+        "lib/netstandard2.1/AutoMapper.Extensions.Microsoft.DependencyInjection.dll"
       ]
     },
     "Elasticsearch.Net/7.17.0": {
@@ -256,6 +345,25 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Microsoft.Extensions.Configuration.Binder/6.0.0": {
+      "sha512": "b3ErKzND8LIC7o08QAVlKfaEIYEvLJbtmVbFZVBRXeu9YkKfSSzLZfR1SUfQPBIy9mKLhEtJgGYImkcMNaKE0A==",
+      "type": "package",
+      "path": "microsoft.extensions.configuration.binder/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/net461/Microsoft.Extensions.Configuration.Binder.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Configuration.Binder.xml",
+        "microsoft.extensions.configuration.binder.6.0.0.nupkg.sha512",
+        "microsoft.extensions.configuration.binder.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
     "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
       "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
       "type": "package",
@@ -278,6 +386,27 @@
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/6.0.0": {
+      "sha512": "dzXN0+V1AyjOe2xcJ86Qbo233KHuLEY0njf/P2Kw8SfJU+d45HNS2ctJdnEnrWbM9Ye2eFgaC5Mj9otRMU6IsQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Extensions.Options.dll",
+        "lib/net461/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.6.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
@@ -306,6 +435,25 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "MongoDB.Bson/2.15.0": {
+      "sha512": "5uPSADVLydGJ4CbmjrsQn7v3NugSdx6htJ4cMNbo8youlfBa5v6YbEqztbipnl+dT1L/YBkJKZ1DDp6LWl0Hqw==",
+      "type": "package",
+      "path": "mongodb.bson/2.15.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "License.txt",
+        "lib/net472/MongoDB.Bson.dll",
+        "lib/net472/MongoDB.Bson.xml",
+        "lib/netstandard2.0/MongoDB.Bson.dll",
+        "lib/netstandard2.0/MongoDB.Bson.xml",
+        "lib/netstandard2.1/MongoDB.Bson.dll",
+        "lib/netstandard2.1/MongoDB.Bson.xml",
+        "mongodb.bson.2.15.0.nupkg.sha512",
+        "mongodb.bson.nuspec",
+        "packageIcon.png"
+      ]
+    },
     "NEST/7.17.0": {
       "sha512": "0Z7bqaVB75ZaL8dIodjHL27k2rY2J5LRC3bbGI8HZ0am1LNqkAJukX1S8bvkbn/y9G7HIDorFYG4Kd+m6ruVJg==",
       "type": "package",
@@ -323,6 +471,64 @@
         "nest.7.17.0.nupkg.sha512",
         "nest.nuspec",
         "nuget-icon.png"
+      ]
+    },
+    "NEST.JsonNetSerializer/7.17.0": {
+      "sha512": "sK+yxuWKzchnc70Ie26Sy3bhYYpd7iwQUBBxSnWZ06Lzfp7WD7EIytTeASdp/5G7cmkBA17Fiu/Dkm7kU/dmWg==",
+      "type": "package",
+      "path": "nest.jsonnetserializer/7.17.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Nest.JsonNetSerializer.dll",
+        "lib/net461/Nest.JsonNetSerializer.pdb",
+        "lib/net461/Nest.JsonNetSerializer.xml",
+        "lib/netstandard2.0/Nest.JsonNetSerializer.dll",
+        "lib/netstandard2.0/Nest.JsonNetSerializer.pdb",
+        "lib/netstandard2.0/Nest.JsonNetSerializer.xml",
+        "license.txt",
+        "nest.jsonnetserializer.7.17.0.nupkg.sha512",
+        "nest.jsonnetserializer.nuspec",
+        "nuget-icon.png"
+      ]
+    },
+    "Newtonsoft.Json/12.0.1": {
+      "sha512": "pBR3wCgYWZGiaZDYP+HHYnalVnPJlpP1q55qvVb+adrDHmFMDc1NAKio61xTwftK3Pw5h7TZJPJEEVMd6ty8rg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.pdb",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.pdb",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.pdb",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.pdb",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.pdb",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.pdb",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.pdb",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.pdb",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
     "System.Buffers/4.5.1": {
@@ -418,9 +624,13 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 11.0.1",
+      "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
+      "Elasticsearch.Net >= 7.17.0",
       "Microsoft.Extensions.Configuration.Abstractions >= 6.0.0",
+      "Microsoft.Extensions.Configuration.Binder >= 6.0.0",
       "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
       "NEST >= 7.17.0",
+      "NEST.JsonNetSerializer >= 7.17.0",
       "SerialSales.Domain >= 1.0.0"
     ]
   },
@@ -476,7 +686,19 @@
             "target": "Package",
             "version": "[11.0.1, )"
           },
+          "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.0.0, )"
+          },
+          "Elasticsearch.Net": {
+            "target": "Package",
+            "version": "[7.17.0, )"
+          },
           "Microsoft.Extensions.Configuration.Abstractions": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "Microsoft.Extensions.Configuration.Binder": {
             "target": "Package",
             "version": "[6.0.0, )"
           },
@@ -485,6 +707,10 @@
             "version": "[6.0.0, )"
           },
           "NEST": {
+            "target": "Package",
+            "version": "[7.17.0, )"
+          },
+          "NEST.JsonNetSerializer": {
             "target": "Package",
             "version": "[7.17.0, )"
           }

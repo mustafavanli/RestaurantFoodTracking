@@ -7,6 +7,7 @@ namespace SerialSales.Api.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
+       
 
     }
 }

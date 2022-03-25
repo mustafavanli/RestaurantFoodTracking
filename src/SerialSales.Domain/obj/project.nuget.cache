@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "bP5nWhs8mnXWlegSpDL/mHb0FT8Olyqo+pr5fMhsIKuokhNOSF2MgDvtY4OGDoDRe1K4lum5JrxYkI73Sh1G/w==",
+  "dgSpecHash": "QJUfePGIZl9ByNXsoK9ODYjKdBuu6rVpD8kgAPBIgrpfo7tZs/rU7r/qWc2m/IW3QUDo0qWwVhNxOOzDdDAhWQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\SerialSales.Domain\\SerialSales.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Mustafa\\.nuget\\packages\\mongodb.bson\\2.15.0\\mongodb.bson.2.15.0.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

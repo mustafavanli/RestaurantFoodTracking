@@ -13,8 +13,18 @@ namespace SerialSales.Application.Dtos
         public string Name { get; set; }
         public string? Description { get; set; }
         public string? Address { get; set; }
-        public int Views { get; set; } = 0;
-        public int Favorites { get; set; } = 0;
+        public int Views { get; set; }
+        public int Favorites { get; set; }
+        public double Price { get; set; }
+    }
+    public class ProductUpdateDto : UpdateDto
+    {
+        public Guid CategoryId { get; set; }
+        public string Name { get; set; }
+        public string? Description { get; set; }
+        public string? Address { get; set; }
+        public int Views { get; set; }
+        public int Favorites { get; set; }
         public double Price { get; set; }
     }
 }

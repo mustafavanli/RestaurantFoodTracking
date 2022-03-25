@@ -9,7 +9,6 @@ namespace SerialSales.Domain.Entity
 {
     public class ChildCategory: BaseEntity
     {
-        public Guid Id { get; set; }
         public Guid SubCategoryId { get; set; }
         public string Name { get; set; }
     }

@@ -52,3 +52,13 @@ C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\obj\Debug\net6.
 C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\obj\Debug\net6.0\SerialSales.Api.pdb
 C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\obj\Debug\net6.0\SerialSales.Api.genruntimeconfig.cache
 C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\obj\Debug\net6.0\ref\SerialSales.Api.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\bin\Debug\net6.0\Elasticsearch.Net.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\bin\Debug\net6.0\Nest.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\bin\Debug\net6.0\SerialSales.Application.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\bin\Debug\net6.0\SerialSales.Domain.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\bin\Debug\net6.0\SerialSales.Application.pdb
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\bin\Debug\net6.0\SerialSales.Domain.pdb
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\bin\Debug\net6.0\Nest.JsonNetSerializer.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\SerialSales.API\bin\Debug\net6.0\Newtonsoft.Json.dll
