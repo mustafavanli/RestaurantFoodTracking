@@ -16,7 +16,7 @@ namespace SerialSales.Infrastructure.Mongo.Repositories
     {
         private readonly IMongoCollection<Entity> Collection;
         private readonly IMapper mapper;
-        public GenericRepository(MongoOptions options,IMapper mapper)
+        public GenericRepository(MongoOptions options, IMapper mapper)
         {
             var client = new MongoClient(options.ConnectionString);
             var db = client.GetDatabase(options.Database);
@@ -47,10 +47,9 @@ namespace SerialSales.Infrastructure.Mongo.Repositories
             return await Collection.Find(x => true).ToListAsync<Entity>();
         }
 
-        public async Task<Entity> UpdateAsync(UpdateDto updateDto)
+        public async Task<Entity> UpdateAsync(Entity entity)
         {
-            var entity = mapper.Map<Entity>(updateDto);
-            var result = await Collection.FindOneAndReplaceAsync(x => x.Id == updateDto.Id, entity);
+            var result = await Collection.FindOneAndReplaceAsync(x => x.Id == entity.Id, entity);
             return entity;
         }
     }

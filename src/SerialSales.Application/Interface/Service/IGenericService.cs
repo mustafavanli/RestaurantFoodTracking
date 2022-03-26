@@ -11,9 +11,9 @@ namespace SerialSales.Application.Interface.Service
     public interface IGenericService<Entity, AddDto, UpdateDto> where Entity : BaseEntity, new() where AddDto : Application.Dtos.AddDto where UpdateDto : Application.Dtos.UpdateDto
     {
         Task<Response<Entity>> Add(AddDto dto);
-        Task<Response<Entity>> Update(UpdateDto dto);
+        Task<Response<Entity>> Update(Entity entity);
         Task<Response<bool>> Delete(Guid id);
-        Task<Response<List<Entity>>> GetAll();
+        Task<Response<List<Entity>>> GetList();
         Task<Response<Entity>> GetById(Guid id);
     }
 }

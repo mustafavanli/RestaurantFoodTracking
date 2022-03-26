@@ -386,12 +386,12 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
-          "Elasticsearch.Net": "7.17.0",
+          "Elasticsearch.Net": "7.14.0",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
-          "NEST": "7.17.0",
-          "NEST.JsonNetSerializer": "7.17.0",
+          "NEST": "7.14.0",
+          "NEST.JsonNetSerializer": "7.14.0",
           "SerialSales.Domain": "1.0.0"
         },
         "compile": {

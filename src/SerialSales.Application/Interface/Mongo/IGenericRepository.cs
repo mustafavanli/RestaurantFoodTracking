@@ -13,7 +13,7 @@ namespace SerialSales.Application.Interface.Mongo
         Task<List<Entity>> GetAllAsync(Expression<Func<Entity, bool>> filter = null);
         Task<Entity> GetAsync(Expression<Func<Entity, bool>> filter);
         Task<Entity> AddAsync(AddDto entity);
-        Task<Entity> UpdateAsync(UpdateDto entity);
+        Task<Entity> UpdateAsync(Entity entity);
         Task<bool> DeleteAsync(Guid id);
     }
 }

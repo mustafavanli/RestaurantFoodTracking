@@ -58,7 +58,7 @@
             },
             "Elasticsearch.Net": {
               "target": "Package",
-              "version": "[7.17.0, )"
+              "version": "[7.14.0, )"
             },
             "Microsoft.Extensions.Configuration.Abstractions": {
               "target": "Package",
@@ -74,11 +74,11 @@
             },
             "NEST": {
               "target": "Package",
-              "version": "[7.17.0, )"
+              "version": "[7.14.0, )"
             },
             "NEST.JsonNetSerializer": {
               "target": "Package",
-              "version": "[7.17.0, )"
+              "version": "[7.14.0, )"
             }
           },
           "imports": [

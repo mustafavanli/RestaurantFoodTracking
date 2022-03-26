@@ -14,7 +14,7 @@ namespace SerialSales.Infrastructure.ElasticSearch.Repositories
     {
         private readonly IElasticClient client;
         private readonly IMapper mapper;
-        public string IndexName => typeof(Entity).Name;
+        public abstract string IndexName { get; }
 
 
         public ElasticSearchGenericRepository(IElasticClient client, IMapper mapper)
@@ -65,12 +65,15 @@ namespace SerialSales.Infrastructure.ElasticSearch.Repositories
             return documents;
         }
 
-        public async virtual Task<Entity> Update(UpdateDto updateDto)
+        public async virtual Task<Entity> Update(Entity entity)
         {
-            var entity = mapper.Map<Entity>(updateDto);
-            var response = await client.UpdateAsync<Entity>(entity.Id, f => f.Doc(entity));
-            var document = response.Get.Source;
-            return document;
+            var result = await client.UpdateAsync<Entity>(entity.Id, u =>
+                        u.Doc(entity).Index(IndexName));
+            if (!result.IsValid)
+            {
+                throw new Exception(result.OriginalException.Message);
+            }
+            return entity;
         }
     }
 }

@@ -20,13 +20,16 @@ namespace SerialSales.Infrastructure
         {
             var elasticSearchOptions = configuration.GetRequiredSection("ElasticSearchOptions").Get<ElasticSearchOptions>();
             var settings = new ConnectionSettings(new Uri($"{elasticSearchOptions.Hostname}:{elasticSearchOptions.Port.ToString()}"))
-             .DefaultIndex("Defaultidx")
+             .DefaultIndex("defaultidx")
              .PrettyJson();
             var client = new ElasticClient(settings);
             services.AddSingleton<IElasticClient>(client);
 
             var mongoDbOptions = configuration.GetRequiredSection("MongoDbOptions").Get<MongoOptions>();
+            services.AddSingleton<MongoOptions>(mongoDbOptions);
 
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IElasticSearchProductRepository, ElasticSearchProductRepository>();
 
 
 

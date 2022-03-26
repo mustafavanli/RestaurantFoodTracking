@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace SerialSales.Domain.Entity
 {
     public class Product:BaseEntity
-    {
+    {   
         public Guid CategoryId { get; set; }
         public string Name { get; set; }
         public string? Description { get; set; }
