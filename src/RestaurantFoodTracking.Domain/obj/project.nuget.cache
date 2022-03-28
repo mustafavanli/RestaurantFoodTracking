@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "7gLKhSAdRp4/gePKPvs7dsa24v+FChrY8ZQ92ZFspV7juxJwV40ZEh8wf/jYYvfuFyup/xtKFz4FtJTgRYZ+Mg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\RestaurantFoodTracking.Domain\\RestaurantFoodTracking.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mustafa\\.nuget\\packages\\elasticsearch.net\\7.14.0\\elasticsearch.net.7.14.0.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\mongodb.bson\\2.15.0\\mongodb.bson.2.15.0.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\nest\\7.14.0\\nest.7.14.0.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

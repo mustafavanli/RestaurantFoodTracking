@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hViYXsNDgCKYbuj6Nkk/nP5PsMBLQ0mR9hq+LQZkmWA=",
+  "Source": "RestaurantFoodTracking.Api",
+  "BasePath": "_content/RestaurantFoodTracking.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
