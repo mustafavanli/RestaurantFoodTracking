@@ -1,3 +1,4 @@
-# SerialSales_Project
+# Backend tamamlandığında daha fazla bilgi vereceğim burada. (Projeme lütfen geri bildirim verin)
 
-Bu backend "sahibinden" gibi satış yapabilen bir uygulama olucak.Şuanlık MongoDB ve ElasticSearch kullanıyorum.Ayrıyetten daha sonrası için Chat eklemeyi ve onun sistemini Firebase ile çalıştırmayı düşünüyorum backend tamamlandığında daha fazla bilgi vereceğim burada.
+Bu backend "yemeksepeti" gibi yemek siparişi verebilen bir uygulama olucak.Şuanlık PostgreSql ve ElasticSearch kullanıyorum.Ayrıyetten daha sonrası için Chat eklemeyi ve onun sistemini Firebase ile çalıştırmayı düşünüyorum.
+
