@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using Microsoft.Extensions.Options;
 using MongoDB.Driver;
-using SerialSales.Application.Interface.Mongo;
-using SerialSales.Domain.Base;
+using RestaurantFoodTracking.Application.Interface.Mongo;
+using RestaurantFoodTracking.Domain.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,12 +10,12 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SerialSales.Infrastructure.Mongo.Repositories
+namespace RestaurantFoodTracking.Infrastructure.Mongo.Repositories
 {
     public class GenericRepository<Entity> : IGenericRepository<Entity> where Entity : BaseEntity,new()
     {
         private readonly IMongoCollection<Entity> Collection;
-        public GenericRepository(MongoOptions options, IMapper mapper)
+        public GenericRepository(MongoOptions options)
         {
             var client = new MongoClient(options.ConnectionString);
             var db = client.GetDatabase(options.Database);

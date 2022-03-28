@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "lJUiy24xBSv+1gYYys/eTQLQNcf9lPe3Sw4n+VfUizfmbtVt4SCQQ85eXYm6k9rWGug+hPyUP2m09UngclO/EA==",
+  "dgSpecHash": "8Bp5wPCqlFvf+CbihR+yW4pau0GeMxlYlepdXyA19hG917LzMQlRBap7n6XVqLQQ0niFAWffq7oT3kLNJMgnJg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\RestaurantFoodTracking.Infrastructure\\RestaurantFoodTracking.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mustafa\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\Mustafa\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\Mustafa\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Mustafa\\.nuget\\packages\\dnsclient\\1.6.0\\dnsclient.1.6.0.nupkg.sha512",
     "C:\\Users\\Mustafa\\.nuget\\packages\\elasticsearch.net\\7.17.0\\elasticsearch.net.7.17.0.nupkg.sha512",
     "C:\\Users\\Mustafa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

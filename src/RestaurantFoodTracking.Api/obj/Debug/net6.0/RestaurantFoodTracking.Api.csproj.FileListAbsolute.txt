@@ -53,3 +53,4 @@ C:\Users\Mustafa\Desktop\SerialSales_Project\src\RestaurantFoodTracking.Api\obj\
 C:\Users\Mustafa\Desktop\SerialSales_Project\src\RestaurantFoodTracking.Api\obj\Debug\net6.0\RestaurantFoodTracking.Api.pdb
 C:\Users\Mustafa\Desktop\SerialSales_Project\src\RestaurantFoodTracking.Api\obj\Debug\net6.0\RestaurantFoodTracking.Api.genruntimeconfig.cache
 C:\Users\Mustafa\Desktop\SerialSales_Project\src\RestaurantFoodTracking.Api\obj\Debug\net6.0\ref\RestaurantFoodTracking.Api.dll
+C:\Users\Mustafa\Desktop\SerialSales_Project\src\RestaurantFoodTracking.Api\bin\Debug\net6.0\BCrypt.Net-Next.dll

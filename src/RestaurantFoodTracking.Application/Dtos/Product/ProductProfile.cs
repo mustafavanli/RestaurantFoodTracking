@@ -1,12 +1,12 @@
 ﻿using AutoMapper;
-using SerialSales.Domain.Entity;
+using RestaurantFoodTracking.Domain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SerialSales.Application.Dtos
+namespace RestaurantFoodTracking.Application.Dtos
 {
     public class ProductProfile:Profile
     {

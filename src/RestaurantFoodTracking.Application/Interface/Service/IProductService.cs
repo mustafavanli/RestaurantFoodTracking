@@ -1,17 +1,18 @@
-﻿using SerialSales.Application.Dtos;
-using SerialSales.Application.Helpers;
-using SerialSales.Domain.Entity;
+﻿using RestaurantFoodTracking.Application.Dtos;
+using RestaurantFoodTracking.Application.Helpers;
+using RestaurantFoodTracking.Domain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SerialSales.Application.Interface.Service
+namespace RestaurantFoodTracking.Application.Interface.Service
 {
-    public interface IProductService:IGenericService<Product,ProductAddDto,ProductUpdateDto>
+    public interface IProductService
     {
         Task<Response<List<Product>>> GeoFilter(double lan,double lon,int km);
-
+        Task<Response<Product>> Add(ProductAddDto productAddDto);
+        Task<Response<List<Product>>> GetList();
     }
 }

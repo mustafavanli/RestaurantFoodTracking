@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SerialSales.Application.Dtos
+namespace RestaurantFoodTracking.Application.Dtos
 {
     public abstract class AddDto
     {

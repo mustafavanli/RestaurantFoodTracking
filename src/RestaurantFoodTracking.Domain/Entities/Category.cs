@@ -1,11 +1,11 @@
-﻿using SerialSales.Domain.Base;
+﻿using RestaurantFoodTracking.Domain.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SerialSales.Domain.Entity
+namespace RestaurantFoodTracking.Domain.Entity
 {
     public class Category: BaseEntity
     {

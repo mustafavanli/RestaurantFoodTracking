@@ -1,15 +1,15 @@
 ﻿using AutoMapper;
 using Nest;
-using SerialSales.Application.Dtos;
-using SerialSales.Application.Interface.ElasticSearch;
-using SerialSales.Domain.Entity;
+using RestaurantFoodTracking.Application.Dtos;
+using RestaurantFoodTracking.Application.Interface.ElasticSearch;
+using RestaurantFoodTracking.Domain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SerialSales.Infrastructure.ElasticSearch.Repositories
+namespace RestaurantFoodTracking.Infrastructure.ElasticSearch.Repositories
 {
     public class ElasticSearchProductRepository : ElasticSearchGenericRepository<Product>, IElasticSearchProductRepository
     {

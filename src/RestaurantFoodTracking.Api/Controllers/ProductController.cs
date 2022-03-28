@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SerialSales.Application.Dtos;
-using SerialSales.Application.Interface.Service;
-using SerialSales.Domain.Entity;
+using RestaurantFoodTracking.Application.Dtos;
+using RestaurantFoodTracking.Application.Interface.Service;
+using RestaurantFoodTracking.Domain.Entity;
 
-namespace SerialSales.Api.Controllers
+namespace RestaurantFoodTracking.Api.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -39,20 +39,20 @@ namespace SerialSales.Api.Controllers
             else return BadRequest(result);
         }
 
-        [HttpPut("Update")]
-        public async Task<IActionResult> Update(Product product)
-        {
-            var result = await productService.Update(product);
-            if (result.IsSuccess == true) return Ok(result);
-            else return BadRequest(result);
-        }
-        [HttpDelete("Delete")]
-        public async Task<IActionResult> Delete([FromQuery]Guid id)
-        {
-            var result = await productService.Delete(id);
-            if (result.IsSuccess == true) return Ok(result);
-            else return BadRequest(result);
-        }
+        //[HttpPut("Update")]
+        //public async Task<IActionResult> Update(Product product)
+        //{
+        //    var result = await productService.Update(product);
+        //    if (result.IsSuccess == true) return Ok(result);
+        //    else return BadRequest(result);
+        //}
+        //[HttpDelete("Delete")]
+        //public async Task<IActionResult> Delete([FromQuery]Guid id)
+        //{
+        //    var result = await productService.Delete(id);
+        //    if (result.IsSuccess == true) return Ok(result);
+        //    else return BadRequest(result);
+        //}
 
     }
 }

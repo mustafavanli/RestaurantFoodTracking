@@ -1,18 +1,18 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Nest;
-using SerialSales.Application.Interface.ElasticSearch;
-using SerialSales.Application.Interface.Mongo;
-using SerialSales.Infrastructure.ElasticSearch.Repositories;
-using SerialSales.Infrastructure.Mongo;
-using SerialSales.Infrastructure.Mongo.Repositories;
+using RestaurantFoodTracking.Application.Interface.ElasticSearch;
+using RestaurantFoodTracking.Application.Interface.Mongo;
+using RestaurantFoodTracking.Infrastructure.ElasticSearch.Repositories;
+using RestaurantFoodTracking.Infrastructure.Mongo;
+using RestaurantFoodTracking.Infrastructure.Mongo.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SerialSales.Infrastructure
+namespace RestaurantFoodTracking.Infrastructure
 {
     public static class ServiceRegistration
     {

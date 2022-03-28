@@ -1,18 +1,18 @@
 ﻿using AutoMapper;
-using SerialSales.Application.Dtos;
-using SerialSales.Application.Interface.Mongo;
-using SerialSales.Domain.Entity;
+using RestaurantFoodTracking.Application.Dtos;
+using RestaurantFoodTracking.Application.Interface.Mongo;
+using RestaurantFoodTracking.Domain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SerialSales.Infrastructure.Mongo.Repositories
+namespace RestaurantFoodTracking.Infrastructure.Mongo.Repositories
 {
-    public class ProductRepository : GenericRepository<Product, ProductAddDto, ProductUpdateDto>,IProductRepository
+    public class ProductRepository : GenericRepository<Product>,IProductRepository
     {
-        public ProductRepository(MongoOptions options, IMapper mapper) : base(options, mapper)
+        public ProductRepository(MongoOptions options):base(options)
         {
         }
     }

@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SerialSales.Domain.Base
+namespace RestaurantFoodTracking.Domain.Base
 {
     public abstract class BaseEntity
     {

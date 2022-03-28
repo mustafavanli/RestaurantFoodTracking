@@ -1,16 +1,16 @@
 ﻿using AutoMapper;
 using Nest;
-using SerialSales.Application.Interface.ElasticSearch;
-using SerialSales.Domain.Base;
+using RestaurantFoodTracking.Application.Interface.ElasticSearch;
+using RestaurantFoodTracking.Domain.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SerialSales.Infrastructure.ElasticSearch.Repositories
+namespace RestaurantFoodTracking.Infrastructure.ElasticSearch.Repositories
 {
-    public abstract class ElasticSearchGenericRepository<Entity> : IElasticSearchGenericRepository<Entity> where Entity : BaseEntity,new();
+    public abstract class ElasticSearchGenericRepository<Entity> : IElasticSearchGenericRepository<Entity> where Entity : BaseEntity,new()
     {
         private readonly IElasticClient client;
         public abstract string IndexName { get; }
@@ -33,7 +33,7 @@ namespace SerialSales.Infrastructure.ElasticSearch.Repositories
             }
             return true;
         }
-        public async virtual Task<Entity> Add(Entity entity)
+        public async virtual Task<Entity> AddAsync(Entity entity)
         {
             var response = await client.CreateDocumentAsync(entity);
 
@@ -43,27 +43,27 @@ namespace SerialSales.Infrastructure.ElasticSearch.Repositories
             return entity;
         }
 
-        public async virtual Task<bool> Delete(Guid id)
+        public async virtual Task<bool> DeleteAsync(Guid id)
         {
             await client.DeleteAsync<Entity>(new DocumentPath<Entity>(id));
             return true;
         }
 
-        public async virtual Task<Entity> GetById(Guid id)
+        public async virtual Task<Entity> GetByIdAsync(Guid id)
         {
             var response = await client.GetAsync<Entity>(id);
             var document = response.Source;
             return document;
         }
 
-        public async virtual Task<List<Entity>> GetList()
+        public async virtual Task<List<Entity>> GetListAsync()
         {
             var response = await client.SearchAsync<Entity>(x => x.Query(q => q.MatchAll()));
             var documents = response.Documents.ToList();
             return documents;
         }
 
-        public async virtual Task<Entity> Update(Entity entity)
+        public async virtual Task<Entity> UpdateAsync(Entity entity)
         {
             var result = await client.UpdateAsync<Entity>(entity.Id, u =>
                         u.Doc(entity).Index(IndexName));

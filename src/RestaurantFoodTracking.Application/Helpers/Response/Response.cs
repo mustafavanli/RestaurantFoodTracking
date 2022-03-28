@@ -1,4 +1,4 @@
-﻿namespace SerialSales.Application.Helpers
+﻿namespace RestaurantFoodTracking.Application.Helpers
 {
     public class Response<T>
     {
@@ -59,6 +59,16 @@
             return new Response<T>
             {
                 Errors = new List<string> { error },
+                IsSuccess = false
+            };
+        }
+
+
+        public static Response<T> Exception()
+        {
+            return new Response<T>
+            {
+                Errors = new List<string> { $"Catch exception {typeof(T).Name}"},
                 IsSuccess = false
             };
         }

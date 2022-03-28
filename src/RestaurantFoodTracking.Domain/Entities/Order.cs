@@ -1,4 +1,5 @@
-﻿using SerialSales.Domain.Base;
+﻿using RestaurantFoodTracking.Domain.Enums;
+using RestaurantFoodTracking.Domain.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +11,6 @@ namespace RestaurantFoodTracking.Domain.Entities
     public class Order:BaseEntity
     {
         public Guid UserId { get; set; }
-        public string MyProperty { get; set; }
+        public OrderState OrderState { get; set; }
     }
 }

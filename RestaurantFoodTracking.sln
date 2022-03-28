@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{EB756037-E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantFoodTracking.UnitTest", "test\RestaurantFoodTracking.UnitTest\RestaurantFoodTracking.UnitTest.csproj", "{900B5AE1-2E0D-4646-90D0-46FD2607CFFC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docker-compose", "docker-compose", "{75593DA5-1CA0-4F30-AC54-A6D1E62F932F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

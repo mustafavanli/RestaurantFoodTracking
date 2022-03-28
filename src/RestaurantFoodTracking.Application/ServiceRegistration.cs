@@ -1,14 +1,14 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Nest;
-using SerialSales.Application.Dtos;
-using SerialSales.Application.Interface.ElasticSearch;
-using SerialSales.Application.Interface.Mongo;
-using SerialSales.Application.Interface.Service;
-using SerialSales.Application.Services;
-using SerialSales.Domain.Entity;
+using RestaurantFoodTracking.Application.Dtos;
+using RestaurantFoodTracking.Application.Interface.ElasticSearch;
+using RestaurantFoodTracking.Application.Interface.Mongo;
+using RestaurantFoodTracking.Application.Interface.Service;
+using RestaurantFoodTracking.Application.Services;
+using RestaurantFoodTracking.Domain.Entity;
 
-namespace SerialSales.Application
+namespace RestaurantFoodTracking.Application
 {
     public static class ServiceRegistration
     {

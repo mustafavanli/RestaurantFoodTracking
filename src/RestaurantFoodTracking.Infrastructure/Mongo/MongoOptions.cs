@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SerialSales.Infrastructure.Mongo
+namespace RestaurantFoodTracking.Infrastructure.Mongo
 {
     public class MongoOptions
     {

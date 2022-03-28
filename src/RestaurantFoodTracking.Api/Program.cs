@@ -1,5 +1,5 @@
-using SerialSales.Application;
-using SerialSales.Infrastructure;
+using RestaurantFoodTracking.Application;
+using RestaurantFoodTracking.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 

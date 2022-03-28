@@ -1,4 +1,5 @@
 ﻿using Nest;
+using RestaurantFoodTracking.Domain.Base;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RestaurantFoodTracking.Domain.Entity
 {
-    public class Customer
+    public class Customer:BaseEntity
     {
         public string FirstName { get; set; }
         public string Surname { get; set; }
