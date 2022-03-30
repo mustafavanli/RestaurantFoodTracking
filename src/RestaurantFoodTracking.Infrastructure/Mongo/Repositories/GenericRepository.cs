@@ -14,6 +14,7 @@ namespace RestaurantFoodTracking.Infrastructure.Mongo.Repositories
 {
     public class GenericRepository<Entity> : IGenericRepository<Entity> where Entity : BaseEntity,new()
     {
+        //ProjectTo
         private readonly IMongoCollection<Entity> Collection;
         public GenericRepository(MongoOptions options)
         {

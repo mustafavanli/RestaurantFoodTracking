@@ -4,7 +4,7 @@ using RestaurantFoodTracking.Application.Helpers;
 using RestaurantFoodTracking.Application.Interface.ElasticSearch;
 using RestaurantFoodTracking.Application.Interface.Mongo;
 using RestaurantFoodTracking.Application.Interface.Service;
-using RestaurantFoodTracking.Domain.Entity;
+using RestaurantFoodTracking.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

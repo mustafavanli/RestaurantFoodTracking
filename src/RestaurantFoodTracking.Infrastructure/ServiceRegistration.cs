@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Nest;
+using RestaurantFoodTracking.Application.Interface;
 using RestaurantFoodTracking.Application.Interface.ElasticSearch;
 using RestaurantFoodTracking.Application.Interface.Mongo;
 using RestaurantFoodTracking.Infrastructure.ElasticSearch.Repositories;
@@ -28,10 +29,27 @@ namespace RestaurantFoodTracking.Infrastructure
             var mongoDbOptions = configuration.GetRequiredSection("MongoDbOptions").Get<MongoOptions>();
             services.AddSingleton<MongoOptions>(mongoDbOptions);
 
-            services.AddScoped<IProductRepository, ProductRepository>();
+
+            RegisterElasticSearchRepository(services); 
+            RegisterMongoRepository(services);
+            return services;
+        }
+
+        public static IServiceCollection RegisterElasticSearchRepository(this IServiceCollection services)
+        {
+
             services.AddScoped<IElasticSearchProductRepository, ElasticSearchProductRepository>();
+            services.AddScoped<IElasticSearchShopOwnerRepository, ElasticSearchShopOwnerRepository>();
+            services.AddScoped<IElasticSearchAddressRepository, ElasticSearchAddressRepository>();
+            return services;
+        }
+        public static IServiceCollection RegisterMongoRepository(this IServiceCollection services)
+        {
 
-
+            services.AddScoped<IProductRepository, ProductRepository>();
+            services.AddScoped<IShopOwnerRepository, ShopOwnerRepository>();
+            services.AddScoped<ICustomerRepository, CustomerRepository>();
+            services.AddScoped<IAddressRepository, AddressRepository>();
 
             return services;
         }

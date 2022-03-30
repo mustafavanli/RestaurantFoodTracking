@@ -7,7 +7,7 @@ namespace RestaurantFoodTracking.UnitTest
         //Servisler yazýldýktan sonra test için methodlar yazýcam!
 
         [Test]
-        public void Test1()
+        public void CustomerRegister()
         {
             Assert.Pass();
         }

@@ -313,11 +313,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\RestaurantFoodTracking.Domain\\RestaurantFoodTracking.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Mustafa\\Desktop\\RestaurantFoodTracking\\src\\RestaurantFoodTracking.Domain\\RestaurantFoodTracking.Domain.csproj",
       "projectName": "RestaurantFoodTracking.Domain",
-      "projectPath": "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\RestaurantFoodTracking.Domain\\RestaurantFoodTracking.Domain.csproj",
+      "projectPath": "C:\\Users\\Mustafa\\Desktop\\RestaurantFoodTracking\\src\\RestaurantFoodTracking.Domain\\RestaurantFoodTracking.Domain.csproj",
       "packagesPath": "C:\\Users\\Mustafa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Mustafa\\Desktop\\SerialSales_Project\\src\\RestaurantFoodTracking.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Mustafa\\Desktop\\RestaurantFoodTracking\\src\\RestaurantFoodTracking.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  restaurantfoodtracking.api:
+    image: ${DOCKER_REGISTRY-}restaurantfoodtrackingapi
+    build:
+      context: .
+      dockerfile: src/RestaurantFoodTracking.Api/Dockerfile

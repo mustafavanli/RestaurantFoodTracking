@@ -1,5 +1,5 @@
 ﻿using RestaurantFoodTracking.Application.Dtos;
-using RestaurantFoodTracking.Domain.Entity;
+using RestaurantFoodTracking.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;

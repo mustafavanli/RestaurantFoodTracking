@@ -15,8 +15,7 @@ namespace RestaurantFoodTracking.Infrastructure.ElasticSearch.Repositories
         private readonly IElasticClient client;
         public abstract string IndexName { get; }
 
-
-        public ElasticSearchGenericRepository(IElasticClient client, IMapper mapper)
+        public ElasticSearchGenericRepository(IElasticClient client)
         {
             this.client = client;
 

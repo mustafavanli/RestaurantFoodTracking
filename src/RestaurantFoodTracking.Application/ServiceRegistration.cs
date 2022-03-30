@@ -6,7 +6,7 @@ using RestaurantFoodTracking.Application.Interface.ElasticSearch;
 using RestaurantFoodTracking.Application.Interface.Mongo;
 using RestaurantFoodTracking.Application.Interface.Service;
 using RestaurantFoodTracking.Application.Services;
-using RestaurantFoodTracking.Domain.Entity;
+using RestaurantFoodTracking.Domain.Models;
 
 namespace RestaurantFoodTracking.Application
 {
@@ -17,6 +17,11 @@ namespace RestaurantFoodTracking.Application
             services.AddAutoMapper(typeof(ServiceRegistration));
 
             services.AddScoped<IProductService, ProductService>();
+            services.AddScoped<ICustomerService, CustomerService>();
+            services.AddScoped<IShopOwnerService, ShopOwnerService>();
+            services.AddScoped<IAddressService, AddressService>();
+
+
             return services;
         }
     }

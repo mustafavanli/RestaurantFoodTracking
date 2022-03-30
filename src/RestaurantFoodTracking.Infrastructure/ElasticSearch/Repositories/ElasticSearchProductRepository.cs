@@ -2,7 +2,7 @@
 using Nest;
 using RestaurantFoodTracking.Application.Dtos;
 using RestaurantFoodTracking.Application.Interface.ElasticSearch;
-using RestaurantFoodTracking.Domain.Entity;
+using RestaurantFoodTracking.Domain.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,7 +15,7 @@ namespace RestaurantFoodTracking.Infrastructure.ElasticSearch.Repositories
     {
         public override string IndexName => "product";
         private readonly IElasticClient client;
-        public ElasticSearchProductRepository(IElasticClient client, IMapper mapper) : base(client, mapper)
+        public ElasticSearchProductRepository(IElasticClient client) : base(client)
         {
             this.client = client;
         }

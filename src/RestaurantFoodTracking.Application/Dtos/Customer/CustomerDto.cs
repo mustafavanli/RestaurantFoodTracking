@@ -15,11 +15,28 @@ namespace RestaurantFoodTracking.Application.Dtos.Customer
         public DateTime BirthDay { get; set; }
         public string? CurrentCity { get; set; }
         public string? CurrentDistrict { get; set; }
+        public string Password { get; set; }
+        public string RePassword { get; set; }
         public GeoLocation? CurrentGeoLocation { get; set; }
     }
     public class CustomerLoginDto
     {
         public string Email { get; set; }
         public string Password { get; set; }
+        public string RePassword { get; set; }
+    }
+    public class CustomerProfileDto
+    {
+        public string FirstName { get; set; }
+        public string Surname { get; set; }
+        public string Email { get; set; }
+        public DateTime BirthDay { get; set; }
+    }
+    public class CustomerProfileUpdateDto : UpdateDto
+    {
+        public string FirstName { get; set; }
+        public string Surname { get; set; }
+        public string Email { get; set; }
+        public DateTime BirthDay { get; set; }
     }
 }

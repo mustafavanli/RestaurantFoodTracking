@@ -10,3 +10,15 @@ C:\Users\Mustafa\Desktop\SerialSales_Project\src\RestaurantFoodTracking.Domain\o
 C:\Users\Mustafa\Desktop\SerialSales_Project\src\RestaurantFoodTracking.Domain\obj\Debug\net6.0\refint\RestaurantFoodTracking.Domain.dll
 C:\Users\Mustafa\Desktop\SerialSales_Project\src\RestaurantFoodTracking.Domain\obj\Debug\net6.0\RestaurantFoodTracking.Domain.pdb
 C:\Users\Mustafa\Desktop\SerialSales_Project\src\RestaurantFoodTracking.Domain\obj\Debug\net6.0\ref\RestaurantFoodTracking.Domain.dll
+C:\Users\Mustafa\Desktop\RestaurantFoodTracking\src\RestaurantFoodTracking.Domain\bin\Debug\net6.0\RestaurantFoodTracking.Domain.deps.json
+C:\Users\Mustafa\Desktop\RestaurantFoodTracking\src\RestaurantFoodTracking.Domain\bin\Debug\net6.0\RestaurantFoodTracking.Domain.dll
+C:\Users\Mustafa\Desktop\RestaurantFoodTracking\src\RestaurantFoodTracking.Domain\bin\Debug\net6.0\RestaurantFoodTracking.Domain.pdb
+C:\Users\Mustafa\Desktop\RestaurantFoodTracking\src\RestaurantFoodTracking.Domain\obj\Debug\net6.0\RestaurantFoodTracking.Domain.csproj.AssemblyReference.cache
+C:\Users\Mustafa\Desktop\RestaurantFoodTracking\src\RestaurantFoodTracking.Domain\obj\Debug\net6.0\RestaurantFoodTracking.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Mustafa\Desktop\RestaurantFoodTracking\src\RestaurantFoodTracking.Domain\obj\Debug\net6.0\RestaurantFoodTracking.Domain.AssemblyInfoInputs.cache
+C:\Users\Mustafa\Desktop\RestaurantFoodTracking\src\RestaurantFoodTracking.Domain\obj\Debug\net6.0\RestaurantFoodTracking.Domain.AssemblyInfo.cs
+C:\Users\Mustafa\Desktop\RestaurantFoodTracking\src\RestaurantFoodTracking.Domain\obj\Debug\net6.0\RestaurantFoodTracking.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Mustafa\Desktop\RestaurantFoodTracking\src\RestaurantFoodTracking.Domain\obj\Debug\net6.0\RestaurantFoodTracking.Domain.dll
+C:\Users\Mustafa\Desktop\RestaurantFoodTracking\src\RestaurantFoodTracking.Domain\obj\Debug\net6.0\refint\RestaurantFoodTracking.Domain.dll
+C:\Users\Mustafa\Desktop\RestaurantFoodTracking\src\RestaurantFoodTracking.Domain\obj\Debug\net6.0\RestaurantFoodTracking.Domain.pdb
+C:\Users\Mustafa\Desktop\RestaurantFoodTracking\src\RestaurantFoodTracking.Domain\obj\Debug\net6.0\ref\RestaurantFoodTracking.Domain.dll

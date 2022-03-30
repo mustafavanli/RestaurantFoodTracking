@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using RestaurantFoodTracking.Application.Dtos;
 using RestaurantFoodTracking.Application.Interface.Service;
-using RestaurantFoodTracking.Domain.Entity;
+using RestaurantFoodTracking.Domain.Models;
 
 namespace RestaurantFoodTracking.Api.Controllers
 {
